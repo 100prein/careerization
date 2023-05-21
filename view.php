@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>View Users</title>
+	<title>User</title>
 	<style>
 		table, th, td {
 			border: 1px solid black;
@@ -65,7 +65,8 @@
 	// Close the database connection
 	mysqli_close($conn);
 	?>
-    <a href="welcome.php">Go back</a>
 
+    <a href="admin.php">Go back</a>
+	<a href="admin_view.php">Admin Managements</a>
 </body>
 </html>

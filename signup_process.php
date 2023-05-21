@@ -32,6 +32,8 @@ if (mysqli_num_rows($result) > 0) {
     if (mysqli_query($conn, $sql)) {
         // User registration successful
         echo "User registration successful.";
+        header("Location: login.php");
+        exit;
     } else {
         // Error inserting user data
         echo "Error: " . $sql . "<br>" . mysqli_error($conn);

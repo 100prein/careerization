@@ -17,7 +17,7 @@ if(isset($_GET["id"]) && !empty(trim($_GET["id"]))){
         // Attempt to execute the prepared statement
         if(mysqli_stmt_execute($stmt)){
             // Records deleted successfully. Redirect to landing page
-            header("location: index.php");
+            header("location: view.php");
             exit();
         } else{
             echo "Oops! Something went wrong. Please try again later.";
@@ -31,7 +31,7 @@ if(isset($_GET["id"]) && !empty(trim($_GET["id"]))){
     mysqli_close($conn);
 } else{
     // User id was not found. Redirect to landing page
-    header("location: index.php");
+    header("location: view.php");
     exit();
 }
 ?>

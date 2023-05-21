@@ -9,22 +9,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400&family=Redressed&display=swap" rel="stylesheet">
-    <title>Home</title>
+    <title>Career Options</title>
 </head>
 <body>
     <nav class="nav_section">
         <ul class="nav_list">
             <li class="nav_list_item"><a href="welcome.php">Home</a></li>
             <li class="nav_list_item"><a href="about.php">About Us</a></li>
-            <li class="nav_list_item"><a href="careerlists.html">Careers Available</a></li>
+            <li class="nav_list_item"><a href="careerlists.html">Careers Resources</a></li>
             <li class="nav_list_item"><a href="contact.php">Contact Us</a></li>
-            <li class="nav_list_item">Dashboard</li>
-            <li class="nav_list_item">Account</li>
+            <li class="nav_list_item"><a href="account.php">Account</a></li>
             <li class="nav_list_item"><a href="logout.php">logout</a></li>
-            <li class="nav_list_item"><a href="view.php">Admin</a></li>
         </ul>
     </nav>
-    <section>
+    <!--<section>
         <ol>
             <li>Agriculture and Agribusiness</li>
             <li>Automotive</li>
@@ -49,7 +47,119 @@
             <li>Telecommunications</li>
             <li>Transportation and Logistics</li>
             <li>Wholesale and Distribution</li>
-          </ol>
+        </ol>
+    </section>-->
+    <section>
+        <div class="about_container">
+            <div class="about_container_item">
+                <img class="about_img" src="./src/agriculture.png"/>
+                <h3>Agriculture and Agribusiness</h3>
+            </div>
+            <div class="about_container_item">
+                <img class="about_img" src="./src/automotive.png"/>
+                <h3>Automotive</h3>
+            </div>
+            <div class="about_container_item">
+                <img class="about_img" src="./src/finance.png"/>
+                <h3>Banking and Financial Services</h3>
+            </div>
+        </div>
+        <div class="about_container">
+            <div class="about_container_item">
+                <img class="about_img" src="./src/chemical.png"/>
+                <h3>Chemicals</h3>
+            </div>
+            <div class="about_container_item">
+                <img class="about_img" src="./src/construction.png"/>
+                <h3>Construction and Engineering</h3>
+            </div>
+            <div class="about_container_item">
+                <img class="about_img" src="./src/consumer.png"/>
+                <h3>Consumer Goods and Services</h3>
+            </div>
+        </div>
+        <div class="about_container">
+            <div class="about_container_item">
+                <img class="about_img" src="./src/teacher.png"/>
+                <h3>Education and Training</h3>
+            </div>
+            <div class="about_container_item">
+                <img class="about_img" src="./src/energy.png"/>
+                <h3>Energy and Utilities</h3>
+            </div>
+            <div class="about_container_item">
+                <img class="about_img" src="./src/entertainment.png"/>
+                <h3>Entertainment and Media</h3>
+            </div>
+        </div>
+        <div class="about_container">
+            <div class="about_container_item">
+                <img class="about_img" src="./src/healthcare.png"/>
+                <h3>Healthcare and Life Science</h3>
+            </div>
+            <div class="about_container_item">
+                <img class="about_img" src="./src/hospitality.png"/>
+                <h3>Hospitality and Tourism</h3>
+            </div>
+            <div class="about_container_item">
+                <img class="about_img" src="./src/technology.png"/>
+                <h3>Information Technology and Services</h3>
+            </div>
+        </div>
+        <div class="about_container">
+            <div class="about_container_item">
+                <img class="about_img" src="./src/insurance.png"/>
+                <h3>Insurance</h3>
+            </div>
+            <div class="about_container_item">
+                <img class="about_img" src="./src/manufacturing.png"/>
+                <h3>Manufacturing</h3>
+            </div>
+            <div class="about_container_item">
+                <img class="about_img" src="./src/mining.png"/>
+                <h3>Mining and Metals</h3>
+            </div>
+        </div>
+        <div class="about_container">
+            <div class="about_container_item">
+                <img class="about_img" src="./src/nonprofit.png"/>
+                <h3>Nonprofit and Social Services</h3>
+            </div>
+            <div class="about_container_item">
+                <img class="about_img" src="./src/biotech.png"/>
+                <h3>Pharmaceuticals and Biotech</h3>
+            </div>
+            <div class="about_container_item">
+                <img class="about_img" src="./src/government.png"/>
+                <h3>Public Administration and Government</h3>
+            </div>
+        </div>
+        <div class="about_container">
+            <div class="about_container_item">
+                <img class="about_img" src="./src/real_estate.png"/>
+                <h3>Real Estate</h3>
+            </div>
+            <div class="about_container_item">
+                <img class="about_img" src="./src/retail.png"/>
+                <h3>Retail</h3>
+            </div>
+            <div class="about_container_item">
+                <img class="about_img" src="./src/telecommunication.png"/>
+                <h3>Telecommunications</h3>
+            </div>
+        </div>
+        <div class="about_container">
+            <div class="about_container_item">
+                <img class="about_img" src="./src/logistic.png"/>
+                <h3>Transportation and Logistics
+                </h3>
+            </div>
+            <div class="about_container_item">
+                <img class="about_img" src="./src/wholesale.png"/>
+                <h3>Wholesale and Distribution</h3>
+            </div>
+        </div>
+
     </section>
 
 
@@ -57,9 +167,16 @@
     <footer class="footer_section">
         <ul class="footer_list">
             <li class="footer_list_item"><h1>Customer Service</h1></li>
-            <li class="footer_list_item">Privacy Policy</li>
-            <li class="footer_list_item">Terms and Conditions</li>
-            <li class="footer_list_item">Contact Us</li>
+            <li class="footer_list_item"><a href="">Privacy Policy</a></li>
+            <li class="footer_list_item"><a href="">Terms and Conditions</a></li>
+            <li class="footer_list_item"><a href="">Contact Us</a></li>
+        </ul>
+        <ul class="footer_list">
+            <li class="footer_list_item"><h1>Customer Service</h1></li>
+            <li><a href="career.html">Career</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="apps.html">Apps</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
         </ul>
         <ul class="footer_list2">
             <div><li class="footer_list_item"><h1>Connect with us</h1></li></div>

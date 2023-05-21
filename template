@@ -14,44 +14,56 @@
 <body>
     <nav class="nav_section">
         <ul class="nav_list">
-            <li class="nav_list_item">About Us</li>
-            <li class="nav_list_item">Careers Available</li>
+            <li class="nav_list_item"><a href="welcome.php">Home</a></li>
+            <li class="nav_list_item"><a href="about.php">About Us</a></li>
+            <li class="nav_list_item"><a href="careerlists.html">Careers Resources</a></li>
+            <li class="nav_list_item"><a href="contact.php">Contact Us</a></li>
+            <li class="nav_list_item"><a href="account.php">Account</a></li>
+            <li class="nav_list_item"><a href="logout.php">logout</a></li>
         </ul>
     </nav>
-    <section>
-        <form action="signup_process.php" method="post">
-            <label for="full_name">Full Name:</label>
-            <input type="text" name="full_name" id="full_name" required><br>
     
-            <label for="username">Username:</label>
-            <input type="text" name="username" id="username" required><br>
-    
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" required><br>
-    
-            <label for="password">Password:</label>
-            <input type="password" name="password" id="password" required><br>
-    
-            <input type="submit" value="Submit">
-        </form>
-    </section>
 
 
 </body>
-    <footer class="footer_section">
-        <ul class="footer_list">
-            <li class="footer_list_item"><h1>Customer Service</h1></li>
-            <li class="footer_list_item">Privacy Policy</li>
-            <li class="footer_list_item">Terms and Conditions</li>
-            <li class="footer_list_item">Contact Us</li>
-        </ul>
-        <ul class="footer_list2">
-            <div><li class="footer_list_item"><h1>Connect with us</h1></li></div>
-            <li class="footer_list_item"><i class="fa-brands fa-linkedin-in"></i></li>
-            <li class="footer_list_item"><i class="fa-brands fa-instagram"></i></li>
-            <li class="footer_list_item"><i class="fa-brands fa-twitter"></i></li>
-            <li class="footer_list_item"><i class="fa-brands fa-facebook-f"></i></li>
-            <!--<li><i class="fa-brands fa-facebook" style="color: black;"></i></li>-->
-        </ul>
-    </footer>
+<footer class="footer_section">
+    <ul class="footer_list">
+        <li class="footer_list_item"><h1>Customer Service</h1></li>
+        <li class="footer_list_item"><a href="">Privacy Policy</a></li>
+        <li class="footer_list_item"><a href="">Terms and Conditions</a></li>
+        <li class="footer_list_item"><a href="">Contact Us</a></li>
+    </ul>
+    <ul class="footer_list">
+        <li class="footer_list_item"><h1>Customer Service</h1></li>
+        <li><a href="career.html">Career</a></li>
+        <li><a href="help.html">Help</a></li>
+        <li><a href="apps.html">Apps</a></li>
+        <li><a href="blogs.html">Blogs</a></li>
+    </ul>
+    <ul class="footer_list2">
+        <div><li class="footer_list_item"><h1>Connect with us</h1></li></div>
+        <li class="footer_list_item"><i class="fa-brands fa-linkedin-in"></i></li>
+        <li class="footer_list_item"><i class="fa-brands fa-instagram"></i></li>
+        <li class="footer_list_item"><i class="fa-brands fa-twitter"></i></li>
+        <li class="footer_list_item"><i class="fa-brands fa-facebook-f"></i></li>
+        <!--<li><i class="fa-brands fa-facebook" style="color: black;"></i></li>-->
+    </ul>
+</footer>
 </html>
+
+/* Select * from careerization.admin_account;
+Select * from careerization.admin;
+Select * from careerization.userfeedback;
+Select * from careerization.futureprofessionals;
+DROP TABLE IF EXISTS feedback;
+
+CREATE TABLE admin_account (
+  id_admin INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(255),
+  username VARCHAR(255),
+  email VARCHAR(255),
+  password VARCHAR(255)
+); */
+
+- resize about images on canva
+- create logo for Careerization
