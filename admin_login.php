@@ -70,23 +70,32 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <nav class="nav_section">
         <ul class="nav_list">
             <li class="nav_list_item"><a href="index.php">Home</a></li>
-            <li class="nav_list_item"><a href="about_outside.php">About Us</a></li>
+            <li class="nav_list_item"><a  href="logout.php?logout">About Us</a></li>
         </ul>
     </nav>
-    <?php if (isset($error_msg)): ?>
-        <p><?php echo $error_msg; ?></p>
-    <?php endif; ?>
-    <section>
-        <h1>Admin Log in</h1>
-        <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-            <label>Username:</label>
-            <input name="username" type="text"/><br>
-            <label>Password:</label>
-            <input name="password" type="password" /><br>
-            <input name="submit" type="submit" value="Login" />
-        </form>
-        <a href="index.php">Go back</a><br>
-        <a href="signup.php">Sign Up</a>
+    
+    <section class="main">
+        <div class="form_input">
+            <h1>Admin Log in</h1>
+                <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
+                    <label>Username:</label>
+                    <input name="username" type="text"/><br>
+                    <label>Password:</label>
+                    <input name="password" type="password" /><br>
+                    <input name="submit" type="submit" value="Login" />
+                </form>
+            
+            <div class="buttons">
+                <a href="index.php"><p class="button">Go back</p></a><br>
+                <a href="admin_signup.php"><p class="button">Sign Up</p></a>
+            </div>
+            <div class="error">
+                <?php if (isset($error_msg)): ?>
+                    <p><?php echo $error_msg; ?></p>
+                <?php endif; ?>
+            </div>
+        </div>
+       
     </section>
 
 

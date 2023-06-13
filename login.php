@@ -73,23 +73,32 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <li class="nav_list_item"><a href="about_outside.php">About Us</a></li>
         </ul>
     </nav>
-    <?php if (isset($error_msg)): ?>
-        <p><?php echo $error_msg; ?></p>
-    <?php endif; ?>
-    <section>
-        <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-            <label>Username:</label>
-            <input name="username" type="text"/><br>
-            <label>Password:</label>
-            <input name="password" type="password" /><br>
-            <input name="submit" type="submit" value="Login" />
-        </form>
-        <a href="index.php">Go back</a><br>
-        <a href="signup.php">Sign Up</a>
+   
+
+
+    <section class="main">
+        <div class="form_input" >
+            <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
+                <label>Username:</label>
+                <input name="username" type="text"/><br>
+                <label>Password:</label>
+                <input name="password" type="password" /><br>
+                <input name="submit" type="submit" value="Login" />
+            </form>
+            <div class="buttons">
+                <a href="index.php"><p class="button">Go back</p></a><br>
+                <a href="signup.php"><p class="button">Sign Up</p></a>
+            </div>
+            <div class="error">
+                <?php if (isset($error_msg)): ?>
+                    <p><?php echo $error_msg; ?></p>
+                <?php endif; ?>
+            </div>
+        </div>
     </section>
-
-
 </body>
+
+
 <footer class="footer_section">
         <ul class="footer_list">
             <li class="footer_list_item"><h1>Customer Service</h1></li>

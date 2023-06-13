@@ -1,16 +1,18 @@
-body {
-    background-color: white;
+html {
     font-family: 'Heebo', sans-serif;
+   
 }
+
 
 a {
     text-decoration: none;
     color: black;
     transition: 0.5s ease;
+    padding: 10px;
 }
 
 a:hover {
-    color: #280DFC;
+    color: white;
     text-decoration: overline;
     transition: 0.5s ease;
 }
@@ -32,22 +34,44 @@ a:hover {
     
 }
 
+.main {
+    margin: 20px;
+    height: 100vh;
+    background-image: linear-gradient(rgba(54, 235, 231,.9),rgba(217,250,247,.9)), url("./src/work_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+}
+
+.main2 {
+    margin: 20px;
+    height: 100vh;
+    background-image: linear-gradient(rgba(54, 235, 231,.9),rgba(217,250,247,.9)), url("./src/work_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 /*Introduction*/
 
 .intro_section {
-    width: 300px;
     height: 300px;
-    margin: auto;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
 /*Signing Section*/
 .signing_section {
     
     height: 300px;
-    margin: auto;
+    margin: 50px auto;
     text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 .signing_section h2 a {
@@ -117,6 +141,7 @@ a:hover {
 
 .title {
     text-align: center;
+    font-size: 30px;
 }
 
 
@@ -153,3 +178,112 @@ a:hover {
     display: flex;
     justify-content: center;
 }
+
+.event_section {
+    display: flex;;
+    justify-content: center;
+    margin: 20px 50px;
+    width: 600px;
+    height: 400px;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #5773E4 #f0f0f0;
+  }
+  
+  .event_section::-webkit-scrollbar {
+    width: 8px; /* Adjust the width as needed */
+  }
+  
+  .event_section::-webkit-scrollbar-track {
+    background-color: rgb(217,250,247); /* Change color to your preference */
+  }
+  
+  .event_section::-webkit-scrollbar-thumb {
+    background-color: rgb(54, 235, 231); /* Change color to your preference */
+  }
+  
+  .event_item {
+    margin: 40px;
+  }
+  
+  .event_item img {
+    width: 400px;
+    border-radius: 50px;
+  }
+  
+  .event_item h3 {
+    color: white;
+    padding: 10px
+  }
+  .event_item p {
+    color: white;
+    padding: 10px
+  }
+  
+  .event_item h4 {
+    color: white;
+    padding: 10px
+  }
+
+.button {
+    padding: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+  
+.form-input {
+    margin: 10px;
+    
+}
+
+form {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+label {
+    padding: 10px;
+
+}
+input {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #5773E4;
+    border-radius: 20px;
+}
+
+textarea {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #5773E4;
+    border-radius: 20px;
+}
+
+.error {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*View*/
+table, th, td {
+    border-collapse: collapse;
+    padding: 5px;
+}
+table {
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+th {
+    border-radius: 20px;
+}
+
+.view {
+    display: flex;
+    justify-content: center;
+}
+

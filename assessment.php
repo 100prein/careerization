@@ -19,7 +19,7 @@
             <li class="nav_list_item"><a href="careerlists.html">Careers Resources</a></li>
             <li class="nav_list_item"><a href="contact.php">Contact Us</a></li>
             <li class="nav_list_item"><a href="account.php">Account</a></li>
-            <li class="nav_list_item"><a href="logout.php">logout</a></li>
+            <li class="nav_list_item"><a  href="logout.php?logout">logout</a></li>
         </ul>
     </nav>
     

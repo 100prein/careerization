@@ -19,24 +19,19 @@
             <li class="nav_list_item"><a href="careerlists.html">Careers Resources</a></li>
             <li class="nav_list_item"><a href="contact.php">Contact Us</a></li>
             <li class="nav_list_item"><a href="account.php">Account</a></li>
-            <li class="nav_list_item"><a href="logout.php">logout</a></li>
+            <li class="nav_list_item"><a  href="logout.php?logout">logout</a></li>
         </ul>
     </nav>
-    <section>
-        <section>
-            <h2>Your Information</h2>
+   <section class="main">
+        <section class="intro_section">
+                <section>
+                    <h2>Your Information</h2>
+                </section>
         </section>
-        <section>
-            <h2>Dashboard</h2>
-        </section>
-    </section>
-    <section>
-        <div>
-            <a href="logout.php?logout">Logout</a>
-        </div>
-        <div>
-            <a href="">Delete Account</a>
-        </div>
+                <div class="buttons">
+                    <a href="logout.php?logout"><p class="button">Logout</p></a>
+                    <a href=""><p class="button">Delete Account</p></a>
+                </div>
     </section>
 
 

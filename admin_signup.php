@@ -15,28 +15,34 @@
     <nav class="nav_section">
         <ul class="nav_list">
             <li class="nav_list_item"><a href="index.php">Home</a></li>
-            <li class="nav_list_item"><a href="about_outside.php">About Us</a></li>
+            <li class="nav_list_item"><a  href="logout.php?logout">About Us</a></li>
         </ul>
     </nav>
-    <section>
+    <section class="main">
+        <div class="form_input">
         <h1>Admin Sign up</h1>
-        <form action="admin_signup_process.php" method="post">
-            <label for="full_name">Full Name:</label>
-            <input type="text" name="full_name" id="full_name" required><br>
-    
-            <label for="username">Username:</label>
-            <input type="text" name="username" id="username" required><br>
-    
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" required><br>
-    
-            <label for="password">Password:</label>
-            <input type="password" name="password" id="password" required><br>
-    
-            <input type="submit" value="Submit">
-        </form>
-        <a href="index.php">Go back</a><br>
-        <a href="admin_login.php">Log in</a>
+            <form action="admin_signup_process.php" method="post">
+                <label for="full_name">Full Name:</label>
+                <input type="text" name="full_name" id="full_name" required><br>
+        
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username" required><br>
+        
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required><br>
+        
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required><br>
+        
+                <input type="submit" value="Submit">
+            </form>
+            <div class="buttons">
+                <a href="index.php"><p class="button">Go back</p></a><br>
+                <a href="admin_login.php"><p class="button">Log in</p></a>
+            </div>
+            
+        </div>
+        
     </section>
 
 

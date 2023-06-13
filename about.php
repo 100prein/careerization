@@ -19,10 +19,15 @@
                 <li class="nav_list_item"><a href="careerlists.html">Careers Resources</a></li>
                 <li class="nav_list_item"><a href="contact.php">Contact Us</a></li>
                 <li class="nav_list_item"><a href="account.php">Account</a></li>
-                <li class="nav_list_item"><a href="logout.php">logout</a></li>
+                <li class="nav_list_item"><a href="logout.php?logout">logout</a></li>
         </ul>
     </nav>
     <section class="about_section">
+    
+        
+    </section>
+
+    <section>
     <h1 class="title">Our Mission</h1>
         <div class="about_container">
             
@@ -39,10 +44,6 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                 </div>
         </div>
-        
-    </section>
-
-    <section>
         <h1 class="title">Our team</h1>
         <div class="profile_section">
             <div>

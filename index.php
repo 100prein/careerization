@@ -18,17 +18,52 @@
             <li class="nav_list_item"><a href="about_outside.php">About Us</a></li>
         </ul>
     </nav>
+    <section class="main">
+        <section class="intro_section">
+            <div>
+                <h1 class="title">Welcome to Careerization</h1>
+                <h3>We are here to help you find your career, provide you with steps and suggestions for you to become professional!</h3>
+            </div>
+            
+            <section class="event_section">
+              <div class="event_container">
+                <div class="event_item">
+                  <img src="./src/distribution.png"/>
+                  <h3>Wholesale and Distribution</h3>
+                  <p><a class="button" href="party.html">Details</a></p>
+                </div>
+                <div class="event_item">
+                  <img src="./src/chemical.png"/>
+                  <h3>Chemicals</h3>
+                  <p><a class="button" href="party.html">Details</a></p>
+                </div>
+                <div class="event_item">
+                  <img src="./src/energy.png"/>
+                  <h3>Energy and Utilities</h3>
+                  <p><a class="button" href="soccer.html">Details</a></p>
+                </div>
+                <div class="event_item">
+                  <img src="./src/insurance.png"/>
+                  <h3>Insurance</h3>
+                  <p><a class="button" href="soccer.html">Details</a></p>
+                </div>
+                <div class="event_item">
+                  <img src="./src/mining.png"/>
+                  <h3>Mining and Metals</h3>
+                  <p><a class="button" href="soccer.html">Details</a></p>
+                </div>
+              </div>
+             </section>
+        </section>
 
-    <section class="intro_section">
-        <h1>Welcome to Careerization</h1>
-        <h3>We are here to help you find your career, provide you with steps and suggestions for you to become professional!</h3>
+        <section class="signing_section">
+            <h2><a href="login.php">Log In</a></h2>
+            <h2><a href="signup.php">Sign up</a></h2>
+            <h2><a href="admin_signup.php">Admin</a></h2>
+        </section>
+        
     </section>
-
-    <section class="signing_section">
-        <h2><a href="login.php">Log In</a></h2>
-        <h2><a href="signup.php">Sign up</a></h2>
-        <h2><a href="admin_signup.php">Admin Log In</a></h2>
-    </section>
+    
 
 </body>
     <footer class="footer_section">
@@ -39,7 +74,7 @@
             <li class="footer_list_item"><a href="">Contact Us</a></li>
         </ul>
         <ul class="footer_list">
-            <li class="footer_list_item"><h1>Customer Service</h1></li>
+            <li class="footer_list_item"><h1>Resources</h1></li>
             <li><a href="career.html">Career</a></li>
             <li><a href="help.html">Help</a></li>
             <li><a href="apps.html">Apps</a></li>

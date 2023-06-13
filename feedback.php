@@ -15,22 +15,31 @@
             <li class="nav_list_item"><a href="careerlists.html">Careers Resources</a></li>
             <li class="nav_list_item"><a href="contact.php">Contact Us</a></li>
             <li class="nav_list_item"><a href="account.php">Account</a></li>
-            <li class="nav_list_item"><a href="logout.php">logout</a></li>
+            <li class="nav_list_item"><a href="logout.php?logout">logout</a></li>
         </ul>
     </nav>
-    <h1>Feedback</h1>
-    <form action="feedback_process.php" method="POST">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required><br><br>
+    <section class="main">
+        <div class="form_input">
+            <h1>Feedback</h1>
+            <form action="feedback_process.php" method="POST">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br><br>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
 
-        <label for="feedback">Feedback:</label><br>
-        <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea><br><br>
+                <label for="feedback">Feedback:</label><br>
+                <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea><br><br>
 
-        <input type="submit" value="Submit">
-    </form>
+                <input type="submit" value="Submit">
+            </form>
+            <div class="buttons">
+                <a href="admin.php"><p class="button">Go back</p></a><br>
+                <a href="view.php"><p class="button">View Accounts</p></a>
+            </div>
+        </div>
+    </section>  
+    
 </body>
 <footer class="footer_section">
         <ul class="footer_list">

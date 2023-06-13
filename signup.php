@@ -18,7 +18,7 @@
             <li class="nav_list_item"><a href="about_outside.php">About Us</a></li>
         </ul>
     </nav>
-    <section>
+    <section class="main">
         <form action="signup_process.php" method="post">
             <label for="full_name">Full Name:</label>
             <input type="text" name="full_name" id="full_name" required><br>
@@ -34,7 +34,9 @@
     
             <input type="submit" value="Submit">
         </form>
-        <a href="index.php">Go back</a>
+        <div class="buttons">
+            <a href="index.php"><p class="button">Go back</p></a>
+        </div>
     </section>
 
 

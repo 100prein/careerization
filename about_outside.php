@@ -19,23 +19,42 @@
                 <li class="nav_list_item"><a href="career_info_out.php">Careers Resources</a></li>
         </ul>
     </nav>
-    <section>
-        <h1 class="title">Our team</h1>
-        <div class="profile_section">
-            <div>
-                <img class="profile" src="./src/leon_profile.png"/><br>
-                <h3>Gina Leon</h3>
-                <p>Front-End Developer | Web Designer</p>
+    <section class="">
+        <section>
+            <h1 class="title">Our Mission</h1>
+                <div class="about_container">
+                
+                    <div class="about_container_item">
+                        <img class="about_img" src="./src/construction.png"/>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                    <div class="about_container_item">
+                        <img class="about_img" src="./src/teacher2.png"/>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
+                    <div class="about_container_item">
+                        <img class="about_img" src="./src/government.png"/>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </div>
             </div>
-            <div>
-                <img class="profile" src="./src/sekou_profile.jpeg"/><br>
-                <h3>Sekou Traore</h3>
-                <p>Back-End Developer | Project Manager</p>
+        </section>
+        <section>
+            <h1 class="title">Our team</h1>
+            <div class="profile_section">
+                <div>
+                    <img class="profile" src="./src/leon_profile.png"/><br>
+                    <h3>Gina Leon</h3>
+                    <p>Front-End Developer | Web Designer</p>
+                </div>
+                <div>
+                    <img class="profile" src="./src/sekou_profile.jpeg"/><br>
+                    <h3>Sekou Traore</h3>
+                    <p>Back-End Developer | Project Manager</p>
+                </div>
             </div>
-        </div>
-        
-        
+        </section>
     </section>
+   
     
 
 
